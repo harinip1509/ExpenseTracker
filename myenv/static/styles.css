@@ -1,0 +1,66 @@
+/* static/styles.css */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0a192f; /* Dark Navy Blue */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff; /* White */
+    padding: 5rem 6rem;
+    border-radius: 16px;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.15);
+    width: 90%;                   /* take up to 90 % of viewport */
+    max-width: 420px; 
+}
+@media (max-width: 400px) {
+    .container {
+        padding: 2rem 1.5rem;
+    }
+}
+h1 {
+    color: #0a192f; /* Dark Navy Blue */
+    margin-bottom: 0.5rem;
+}
+
+p {
+    color: #444444;
+    margin-bottom: 2rem;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    background: #355E3B; /* Money Green */
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #5F8575; /* Darker Money Green */
+}
+
+/* Optional: Adjust the size and spacing of the ☰ icon */
+.custom-toggler {
+    font-size: 1.5rem;
+    border: none;
+    background: transparent;
+    color: white;
+}

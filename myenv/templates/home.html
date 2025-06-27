@@ -1,0 +1,19 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Finance Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Finance Tracker</h1>
+        <p>Track your expenses easily and securely</p>
+        <div class="button-group">
+            <a href="{{ url_for('pages.signup') }}" class="btn">Sign Up</a>
+            <a href="{{ url_for('pages.login') }}" class="btn">Login</a>
+        </div>
+    </div>
+</body>
+</html>
