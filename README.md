@@ -18,4 +18,5 @@ Features
 - Vanilla JavaScript (ES6)
 - [jsPDF](https://github.com/parallax/jsPDF) for PDF creation
 - [jsPDF-AutoTable](https://github.com/simonbengtsson/jsPDF-AutoTable) for rendering tables in PDF
+![Screenshot 2025-06-28 110318](https://github.com/user-attachments/assets/78a8d7eb-9ac6-4d57-a727-3a14557d8f64)
 
